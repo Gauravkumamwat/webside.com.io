@@ -1,0 +1,208 @@
+ 
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	
+}
+header {
+width:100%;
+height:100vh;
+
+background-image:linear-gradient(19deg,#1a52f9 0%,#B721FF 84%);
+position:relative;
+}
+nav{
+  	width:100%;
+	height:15vh;
+	display:flex;
+	right:0px;
+	justify-content:space-around;
+	align-items:center;
+	position:absolute;
+	}
+a{
+color:white;
+text-decoration:none;
+	}
+.logo a{
+		
+font-size:1.6rem;
+text-transform:uppercase;
+font-weight:bold;
+}
+	.menu ul li{
+		display:inline-block;
+		padding: 0 15px;
+	}
+	.menu ul li a {
+	
+		text-transform:capitalize;
+	}
+	
+	.active, ul li:hover{
+		border-top:2px solid #5dade2;
+		border-bottom:2px solid #5dade2;
+	}
+	
+	.contest-btn a{
+		background-color:#d465ef;
+		padding: 12px 34px;
+		font-style:22px;
+		font-weight:700;
+		border: 1px solid  transparent;
+		text-transform:capitalize;
+	
+		
+	}
+			.contest-btn a:hover
+	{
+		background:linear-gradient(to bottom,#615cfd 0%,#d465ef 100%);
+				}
+				
+	.center-contact{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+	}
+				.center-contact h1{
+					color:#fff;
+					font-size:50px;
+					text-transform:capitalize;
+					font-weight:500;
+					margin-bottom:10px;
+					z-index:1
+										
+				}
+			
+				.center-contact h2{
+					font-size:45px;
+					color:#fff;
+					
+					
+					font-weight:33px;;
+				
+										
+				}
+				.center-contact h2:before{
+					content:"";
+					width:44px;
+					height:auto;
+					border: 2px solid #fff;
+					position:absolute;
+					left:px;
+					bottom:3;
+					margin-bottom:10px;
+					
+				}
+			
+				header:before{
+					content:"";
+					width:465px;
+					height:494px;
+					position:absolute;
+					left:0;
+					bottom:0;
+					background-image: url('PicsArt_06-27-10.21.20.png');
+					background-size:100% 100%;
+					 
+				}
+				
+				.social-network{
+					width:100px;
+					height:auto;
+					position:absolute;
+					right:-390;
+					top:-30%;
+					
+				}
+	 	
+    .fa-icons{
+		width:40px;
+		height:40px;
+		border-radius:70%;
+		background:linear-gradient(to bottom,#615cfd 0%,#d465ef 100%);
+		display:flex
+		justify-content:center;
+		align-items:center;
+		font-size:30px;
+		line-height:100px;
+	}
+				
+				.fa-icons:nth-child(even){
+					
+					margin:33px 0;
+					font-size:45;
+				}
+				
+				.fa-icons:hover{
+		background:linear-gradient(to bottom,#615cfd 0%,#d465ef 100%);
+				}
+				
+	.wrep{
+				top:75%;
+				left:77%;
+				position:absolute;
+			    width:55%;
+			    transform:translate(-50%,-50%);
+				font-size:32px;
+			
+	}
+	.search{
+		width:51%;
+		position:relative;
+		
+	}
+	
+	.searchterm{
+		float:left;
+		width:88%;
+		border:2px solid #00b4cc;
+		padding:9px;
+		font-size:17px;
+		outline:none;
+		transition:0s all;
+		
+	}
+	
+	.searchbtn{
+		position:absolute;
+		width:12px;
+		height:42px;
+		background-color:#00b4cc;
+	border:1px solid #00b4cc;
+	text-align:center;
+	color:#FFF;
+	cursor:pointer;
+	font-size:20px;
+	
+	
+		}
+		.searchterm:focus{
+			color:black;
+			border:2px solid #fff;
+			
+		}
+		
+		.btn{
+	   margin:1px;
+	   	color:#fff;
+		  padding: 5px 35px;
+		  font-size:23px;
+		  border:1px solid #fff; 
+		  text-decoration:none;
+		  
+		  }
+		  .btn:hover{
+			  color:black;
+			  background-color:#fff;
+			transition:0.3s ease;
+					 		  
+		  }
+		  .button{
+	
+	position:absolute;
+	top:136%;
+	right:47%;
+		    }
